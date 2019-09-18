@@ -6,6 +6,8 @@
 	background-position:  top;
 	bottom: 20px;
 }*/
+
+/* Header. Animated Menu Icon (click on it) */
 #imgLogo {
 	position: absolute;
 	top: 50px;
@@ -15,19 +17,32 @@
 	z-index: 1;
 }
 
-.openbtn {
-	position: absolute;
-	background-color: #38ca2e91;
-	top: 3%;
-	right: 3%;
-	z-index: 1;
-	border: none;
-
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
 }
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/*###################################*/
 html {
   min-height: 100%;
   position: relative;
 }
+
 footer {
 	padding: 10px;
 	background-color: green;
@@ -46,7 +61,8 @@ table, th, td {
 	text-align: center;
 	background-color: #f1f1c1;
 }
-ul{/*estilo de listado cuadrado para todas las etiquetas ul*/
+
+ul {/*estilo de listado cuadrado para todas las etiquetas ul*/
 	list-style-type:square;
 }
 
