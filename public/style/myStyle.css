@@ -1,0 +1,59 @@
+/*#imgBkgHeader {
+	background-image: url("../img/image1.jpg");
+	height: 170px;
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position:  top;
+	bottom: 20px;
+}*/
+#imgLogo {
+	position: absolute;
+	top: 50px;
+	height: 80px;
+	width: 80px;
+	left: 5%;
+	z-index: 1;
+}
+
+.openbtn {
+	position: absolute;
+	background-color: #38ca2e91;
+	top: 3%;
+	right: 3%;
+	z-index: 1;
+	border: none;
+
+}
+html {
+  min-height: 100%;
+  position: relative;
+}
+footer {
+	padding: 10px;
+	background-color: green;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	color: white;
+}
+
+table, th, td {
+	border: 2px solid black;
+	border-collapse: collapse;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 2px;
+	text-align: center;
+	background-color: #f1f1c1;
+}
+ul{/*estilo de listado cuadrado para todas las etiquetas ul*/
+	list-style-type:square;
+}
+
+
+/*Demo carrusel*/
+ /* Make the image fully responsive */
+.carousel-inner img {
+    width: 100%;
+    height: 50%;
+}
